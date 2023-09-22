@@ -7,16 +7,16 @@ print("Tu IMC es: " + str(imc))
 
 
 if imc <= 18.5:
-       peso = "Tienes peso insuficiente"
-       return peso
+    print("Tienes peso insuficiente")
+       
 elif imc <= 24.9:
-     peso = "Estas en un peso ideal"
-     return peso
+    print("Estas en un peso ideal")
+         
 elif imc <= 29.9:
-      peso = "Te está saliendo barriga, lleva cuidado"
-      return peso
+    print("Te está saliendo barriga, lleva cuidado")
+        
 elif imc >= 30.0:
-      peso = "Tienes sobrepeso"
-      return peso
+    print("Tienes sobrepeso")
+       
       
  
