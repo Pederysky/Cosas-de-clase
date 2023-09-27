@@ -11,10 +11,14 @@ c = int(input("Introduce el número entero: "))
 
 raiz_cuadrada = (((b ** 2) - (4 * (a * c))))
 print(raiz_cuadrada)
-operacion = math.sqrt(raiz_cuadrada)
-resultado1 = (((-1) * b) + operacion) / (2 * a)
-resultado2 = (((-1) * b) - operacion) / (2 * a)
-print("El resultado puede ser " + str(resultado1) + " o " + str(resultado2))
+if raiz_cuadrada <0:
+    print("Raíz cuadrada negativa, no se puede calcular")
+
+else:
+    operacion = math.sqrt(raiz_cuadrada)
+    resultado1 = (((-1) * b) + operacion) / (2 * a)
+    resultado2 = (((-1) * b) - operacion) / (2 * a)
+    print("El resultado puede ser " + str(resultado1) + " o " + str(resultado2))
 
 
 
