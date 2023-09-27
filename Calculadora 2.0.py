@@ -2,7 +2,7 @@
 
 
 while True:
-    choice = input("Elige que operación deseas ejecutar (+ | - | * | /) (Pulsa c para cerrar el programa): ")
+    choice = input("Elige que operación deseas ejecutar (+ | - | * | /) (Pulsa c para cerrar el programa): ").lower()
     if choice == 'c':
             break
     if choice in ('+', '-', '*', '/'):
