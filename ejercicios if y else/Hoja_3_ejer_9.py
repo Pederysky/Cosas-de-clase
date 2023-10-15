@@ -1,11 +1,9 @@
-# Escribe un programa que en primer lugar pregunte si se quiere calcular 
-# el área de un triángulo o la de un círculo.
+# 9. EJERCICIO CALIFICABLE. Escribe un programa que en primer lugar pregunte si 
+# se quiere calcular el área de un triángulo o la de un círculo.
 # Si se contesta que se quiere calcular el área de un triángulo, 
 # el programa tiene que pedir entonces la base y la altura y escribir el área.
-# Si se contesta que se quiere calcular el área de un círculo, 
-# el programa tiene que pedir entonces el radio y escribir el área.
-# En ambos casos el programa debe ser capaz de calcular y mostrar el resultado 
-# adecuado.
+# Si se contesta que se quiere calcular el área de un círculo, el programa tiene que pedir entonces el radio y escribir el área.
+# En ambos casos el programa debe ser capaz de calcular y mostrar el resultado adecuado.
 
 from math import pi
 
