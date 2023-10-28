@@ -13,7 +13,7 @@ from math import pi
 while True:
     choice = input("¿Que quieres calcular? Pulsa 'T' para el área de un triángulo o "+
                    "pulsa 'C' para el área de un círculo. (También puedes pulsar 'E'"+
-                   " para cerrar   el programa)").upper()
+                   " para cerrar el programa)").upper()
     if choice == 'E':
             break
     if choice in ('T'):
