@@ -16,12 +16,10 @@ contador = 0
 i=1
 while i<(n1+1):
     n2= float(input("Nuevo numero: "))
-    if n2 <=0:
-        print("MAAAAALLL. Introduce numeros positivos")
-        exit()
-
+   
     if n2<=n1:
         contador+=n2
+        #Este print sirve para comprobar que valor tiene la variable contador despues de cada input
         print (f"La suma actual de los numeros es: {contador}")
     elif contador==n1:
         print(f"Has realizado la suma correctamente. El total es {contador}")
